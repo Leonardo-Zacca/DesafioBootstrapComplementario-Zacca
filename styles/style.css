@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #C64928;
+}
+/* HEADER */
+.color-nav {
+    background-color: #033249;
+}
+.header img {
+    width: 120px;
+    padding: 10px;
+}
+.navbar-textcolor {
+    color:#C64928 !important;
+}
+/* MAIN */
+
+main {
+    background-image: url(../images/BackgroundMain.jpg);
+    background-repeat: no-repeat;
+    background-color: #C64928;
+    background-position: center center;
+    background-size: cover;
+}
+
+.btn-card {
+    background-color: grey;
+    color: white;
+}
+.card-body {
+    background-color: rgb(197, 194, 194);
+}
+
+.card {
+    width: 14rem;
+}
+.tarjetas {
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER */
+footer{
+    background-color: #033249;
+}
+.disclaimer {
+    color: gray;
+}
+.redes {
+    height: auto;
+    width: auto;
+    max-width: 50px;
+}
+.map {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.map iframe,
+.map object,
+.map embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
